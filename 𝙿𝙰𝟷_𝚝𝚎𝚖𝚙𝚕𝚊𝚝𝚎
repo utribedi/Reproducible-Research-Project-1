@@ -1,9 +1,10 @@
-##Step 1
-##Code for reading in the dataset and/or processing the data
-```{r, echo = TRUE}
-setwd("C:/Users/Shengyu Chen/Dropbox/Academics/Coursera/Data Science Specialization/Reproducible Research/Course Project 1")
-activity<-read.csv("activity.csv")
-```
+title: "Course Project 1 of Reproducible Research"
+author: "Uttaran Tribedi"
+date: "3/4/2019"
+output:
+  md_document:
+variant: markdown_github
+
 
 Exploring the basics of this data
 ```{r}
